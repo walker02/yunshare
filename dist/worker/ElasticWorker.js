@@ -25,7 +25,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var segmenter = new _nodeAnalyzer2.default();
 
 var client = new _elasticsearch2.default.Client({
-  host: 'http://es.biliworld.com/',
+  host: 'http://localhost:9200/',
   requestTimeout: 60000,
   log: 'info'
 });

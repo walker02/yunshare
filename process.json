@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "fan",
+      "script": "./dist/fan.js"
+    },
+    {
+      "name": "follow",
+      "script": "./dist/follow.js"
+    },
+    {
+      "name": "share",
+      "script": "./dist/share.js"
+    },
+    {
+      "name": "parser",
+      "script": "./dist/parser.js"
+    }
+  ]
+}

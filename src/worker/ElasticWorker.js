@@ -5,7 +5,7 @@ import pool from '../util/pool';
 const segmenter = new Segmenter();
 
 const client = new elasticsearch.Client({
-  host: 'http://es.biliworld.com/',
+  host: 'http://localhost:9200/',
   requestTimeout: 60000,
   log: 'info'
 });
