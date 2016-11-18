@@ -1,0 +1,98 @@
+{
+  "errno": 0,
+  "request_id": 2216903884,
+  "count": 7,
+  "album_list": [
+    {
+      "album_id": "1481611372140163606",
+      "title": "\u65b0\u4e1c\u65b9\u5218\u4e00\u7537\u89c6\u9891\u8bb2\u89e3\u4e13\u8f91",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1387767454,
+      "update_time": 1387767454,
+      "cover_thumb": "",
+      "vCnt": 8750,
+      "tCnt": 0,
+      "dCnt": 0,
+      "filecount": 0
+    },
+    {
+      "album_id": "5474791767449503356",
+      "title": "\u96c5\u601d\u542c\u529b\u8d44\u6599\u4e0b\u8f7d",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1380265572,
+      "update_time": 1380265572,
+      "cover_thumb": "",
+      "vCnt": 7547,
+      "tCnt": 3074,
+      "dCnt": 1382,
+      "filecount": 3
+    },
+    {
+      "album_id": "8970431297142236256",
+      "title": "\u96c5\u601d\u5199\u4f5c\u9ad8\u5206\u6280\u5de7\u5206\u4eab",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1380264089,
+      "update_time": 1380264089,
+      "cover_thumb": "",
+      "vCnt": 3700,
+      "tCnt": 946,
+      "dCnt": 437,
+      "filecount": 1
+    },
+    {
+      "album_id": "8881465476918324459",
+      "title": "\u96c5\u601d\u53e3\u8bed\u8d44\u6599",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1380253412,
+      "update_time": 1380253412,
+      "cover_thumb": "",
+      "vCnt": 5072,
+      "tCnt": 1084,
+      "dCnt": 558,
+      "filecount": 1
+    },
+    {
+      "album_id": "8755376462042690777",
+      "title": "PEP\u4eba\u6559\u7248\u5c0f\u5b66\u82f1\u8bed\u8bfe\u4ef6",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1380168394,
+      "update_time": 1380175855,
+      "cover_thumb": "",
+      "vCnt": 3740,
+      "tCnt": 834,
+      "dCnt": 174,
+      "filecount": 1
+    },
+    {
+      "album_id": "949812938123834677",
+      "title": "\u5c0f\u5b66\u82f1\u8bedPEP\u7535\u5b50\u8bfe\u6587MP3",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1380091257,
+      "update_time": 1380168015,
+      "cover_thumb": "",
+      "vCnt": 8782,
+      "tCnt": 1762,
+      "dCnt": 2321,
+      "filecount": 8
+    },
+    {
+      "album_id": "249027419093403849",
+      "title": "\u79bb\u7ebf\u8bed\u97f3\u5305\u4e0b\u8f7d",
+      "desc": "",
+      "cover": 0,
+      "create_time": 1379995665,
+      "update_time": 1379995665,
+      "cover_thumb": "",
+      "vCnt": 19593,
+      "tCnt": 7919,
+      "dCnt": 3417,
+      "filecount": 5
+    }
+  ]
+}

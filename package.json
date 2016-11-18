@@ -1,0 +1,49 @@
+{
+  "name": "yun",
+  "version": "0.1.0",
+  "description": "baidu yun spider",
+  "main": "./dist/yun.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmelanmao/yun.git"
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "fs-extra": "^0.30.0",
+    "generic-pool": "^2.4.3",
+    "md5": "^2.1.0",
+    "mime-types": "^2.1.11",
+    "mongodb": "^2.2.11",
+    "mysql": "^2.11.1",
+    "q": "^1.4.1",
+    "sleep-time": "^0.1.0 ",
+    "request": "^2.74.0",
+    "superagent": "^2.3.0",
+    "elasticsearch": "^12.0.1",
+    "sequelize": "^3.24.5",
+    "node-analyzer": "https://github.com/callmelanmao/node-analyzer",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "7.0.0",
+    "babel-preset-es2015": "6.16.0",
+    "babel-register": "^6.16.3",
+    "chai": "3.5.0",
+    "eslint": "3.6.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-react": "6.3.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-eslint": "3.0.1",
+    "gulp-mocha": "3.0.1",
+    "gulp-rimraf": "0.2.0",
+    "mocha": "3.1.0",
+    "rimraf": "2.5.4",
+    "run-sequence": "1.2.2"
+  }
+}

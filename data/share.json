@@ -1,0 +1,547 @@
+{
+  "loginstate": 0,
+  "mobileModel": "",
+  "uinfo": {
+    "uname": "\u540d\u59ff10",
+    "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+    "uk": 1949404764,
+    "third": 0,
+    "fans_count": 240381,
+    "follow_count": 0,
+    "pubshare_count": 69,
+    "album_count": 7,
+    "relation_type": -1
+  },
+  "flag": 10,
+  "limit": 20,
+  "quota": [],
+  "third": 0,
+  "photo": "",
+  "username": null,
+  "visit_uk": null,
+  "is_vip": 0,
+  "fans_count": null,
+  "follow_count": null,
+  "bdstoken": null,
+  "is_master_vip": 0,
+  "feedata": {
+    "total_count": 76,
+    "records": [
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3731559445",
+        "data_id": "6290462535080901371",
+        "title": "\u7231\u82b1\u6735\u80cc\u5355\u8bcd2.0\u7248\u672c.zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1395214492000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u7231\u82b1\u6735\u80cc\u5355\u8bcd2.0\u7248\u672c.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 5070195,
+            "fs_id": 1095067219,
+            "path": "%2F%E7%88%B1%E8%8A%B1%E6%9C%B5%E8%83%8C%E5%8D%95%E8%AF%8D2.0%E7%89%88%E6%9C%AC.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "1864748372",
+        "data_id": "8548678700934249249",
+        "title": "\u7231\u82b1\u6735\u80cc\u5355\u8bcd3.0\u7248.zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1394508629000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u7231\u82b1\u6735\u80cc\u5355\u8bcd3.0\u7248.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 29627720,
+            "fs_id": 70085253389816,
+            "path": "%2F%E7%88%B1%E8%8A%B1%E6%9C%B5%E8%83%8C%E5%8D%95%E8%AF%8D3.0%E7%89%88.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2818418893",
+        "data_id": "6475081420553662067",
+        "title": "2014\u8003\u7814\u5546\u5fd7\u4f20\u5947\u9605\u8bfb\u73ed",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1393401474000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "dir_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "2014\u8003\u7814\u5546\u5fd7\u4f20\u5947\u9605\u8bfb\u73ed",
+            "category": 6,
+            "isdir": 1,
+            "size": 1024,
+            "fs_id": 235467567788598,
+            "path": "%2F2014%E8%80%83%E7%A0%94%E5%95%86%E5%BF%97%E4%BC%A0%E5%A5%87%E9%98%85%E8%AF%BB%E7%8F%AD"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2358139189",
+        "data_id": "5904918846649706511",
+        "title": "\u666e\u7279\u6709\u9053\u5355\u8bcd\u5361\u7247\u6253\u5305\u4e0b\u8f7d.zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1392108382000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u666e\u7279\u6709\u9053\u5355\u8bcd\u5361\u7247\u6253\u5305\u4e0b\u8f7d.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 28960727,
+            "fs_id": 3846848982,
+            "path": "%2F%E6%99%AE%E7%89%B9%E6%9C%89%E9%81%93%E5%8D%95%E8%AF%8D%E5%8D%A1%E7%89%87%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3867072473",
+        "data_id": "4313453603702919890",
+        "title": "\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1390877930000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 1290465935,
+            "fs_id": 2294510479,
+            "path": "\/\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "991960658",
+        "data_id": "4244457398101329698",
+        "title": "100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1390548531000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 15855796,
+            "fs_id": 2491108638,
+            "path": "\/100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3517447030",
+        "data_id": "5587207233751822539",
+        "title": "\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1390273138000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 113484603,
+            "fs_id": 1426786665,
+            "path": "\/\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "662476349",
+        "data_id": "342289729127490635",
+        "title": "\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1389170847000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 84375511,
+            "fs_id": 3088107436,
+            "path": "\/\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2103240213",
+        "data_id": "6910069592650479575",
+        "title": "\u4e92\u52a8\u7248\u65b0\u6982\u5ff5\u82f1\u8bed\u7f51\u7edc\u8bfe\u7a0b\u5168\u518c",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1387853814000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "dir_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u4e92\u52a8\u7248\u65b0\u6982\u5ff5\u82f1\u8bed\u7f51\u7edc\u8bfe\u7a0b\u5168\u518c",
+            "category": 6,
+            "isdir": 1,
+            "size": 1024,
+            "fs_id": 1466346561,
+            "path": "%2F%E4%BA%92%E5%8A%A8%E7%89%88%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B%E5%85%A8%E5%86%8C"
+          }
+        ]
+      },
+      {
+        "feed_type": "album",
+        "category": -1,
+        "public": "1",
+        "album_id": "1481611372140163606",
+        "data_id": "1119629098101588178",
+        "title": "\u65b0\u4e1c\u65b9\u5218\u4e00\u7537\u89c6\u9891\u8bb2\u89e3\u4e13\u8f91",
+        "feed_time": 1387767455000,
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "uk": 1949404764,
+        "desc": "",
+        "cover_thumb": ""
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3635858990",
+        "data_id": "8410490098872776903",
+        "title": "\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1387353745000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 428815419,
+            "fs_id": 340652959,
+            "path": "\/\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3225470842",
+        "data_id": "5648634982694001119",
+        "title": "BBC\u3001 VOA\u3001 CNN\u65b0\u95fb\u542c\u529b 300\u7bc7\u4e0b\u8f7d\uff08lrc\u540c\u6b65\u5b57\u5e55+MP3\uff09.zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1387177842000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "BBC\u3001 VOA\u3001 CNN\u65b0\u95fb\u542c\u529b 300\u7bc7\u4e0b\u8f7d\uff08lrc\u540c\u6b65\u5b57\u5e55+MP3\uff09.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 114022828,
+            "fs_id": 681884026,
+            "path": "%2FBBC%E3%80%81%20VOA%E3%80%81%20CNN%E6%96%B0%E9%97%BB%E5%90%AC%E5%8A%9B%20300%E7%AF%87%E4%B8%8B%E8%BD%BD%EF%BC%88lrc%E5%90%8C%E6%AD%A5%E5%AD%97%E5%B9%95%2BMP3%EF%BC%89.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3743824788",
+        "data_id": "8753283597970437118",
+        "title": "\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386667630000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 157819266,
+            "fs_id": 1818914303,
+            "path": "\/\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3743160049",
+        "data_id": "7256971706516324808",
+        "title": "\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386667623000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 102587607,
+            "fs_id": 4219751649,
+            "path": "\/\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2824683414",
+        "data_id": "5165541565149707934",
+        "title": "\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386658438000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 6567207,
+            "fs_id": 2830246193,
+            "path": "\/\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "3033389115",
+        "data_id": "896259465056378236",
+        "title": "\u65b0\u4e1c\u65b98\u59298000\u8bcd\u6c47\u9b54\u9b3c\u8bad\u7ec3\u8425\u5185\u90e8\u6559\u6750 .zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386574626000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u65b0\u4e1c\u65b98\u59298000\u8bcd\u6c47\u9b54\u9b3c\u8bad\u7ec3\u8425\u5185\u90e8\u6559\u6750 .zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 6423761,
+            "fs_id": 357749561,
+            "path": "%2F%E6%96%B0%E4%B8%9C%E6%96%B98%E5%A4%A98000%E8%AF%8D%E6%B1%87%E9%AD%94%E9%AC%BC%E8%AE%AD%E7%BB%83%E8%90%A5%E5%86%85%E9%83%A8%E6%95%99%E6%9D%90%20.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2837525358",
+        "data_id": "1718404826000561994",
+        "title": "\u56db\u516d\u7ea7\u4f5c\u6587\u5fc5\u5907.zip",
+        "third": 0,
+        "clienttype": 0,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386572667000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u56db\u516d\u7ea7\u4f5c\u6587\u5fc5\u5907.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 6590231,
+            "fs_id": 4121804248,
+            "path": "%2F%E5%9B%9B%E5%85%AD%E7%BA%A7%E4%BD%9C%E6%96%87%E5%BF%85%E5%A4%87.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "1408052197",
+        "data_id": "8090093345661622208",
+        "title": "\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1386214775000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 45953449,
+            "fs_id": 1772163663,
+            "path": "\/\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "share",
+        "category": 6,
+        "public": "1",
+        "shareid": "2513268362",
+        "data_id": "454676008475608283",
+        "title": "\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip",
+        "third": 0,
+        "clienttype": 8,
+        "filecount": 1,
+        "uk": 1949404764,
+        "username": "\u540d\u59ff10",
+        "feed_time": 1385968129000,
+        "desc": "",
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "category_6_cnt": 1,
+        "filelist": [
+          {
+            "server_filename": "\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip",
+            "category": 6,
+            "isdir": 0,
+            "size": 192665436,
+            "fs_id": 1176878639,
+            "path": "\/\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip"
+          }
+        ]
+      },
+      {
+        "feed_type": "album",
+        "category": 6,
+        "public": "1",
+        "album_id": "249027419093403849",
+        "data_id": "344812063008727000",
+        "title": "\u79bb\u7ebf\u8bed\u97f3\u5305\u4e0b\u8f7d",
+        "feed_time": 1400039559000,
+        "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg",
+        "uk": 1949404764,
+        "desc": "",
+        "cover_thumb": ""
+      }
+    ]
+  },
+  "bduss": null,
+  "urlparam": [],
+  "XDUSS": "null"
+}

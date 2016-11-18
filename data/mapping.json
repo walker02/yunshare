@@ -1,0 +1,35 @@
+curl -X POST http://localhost:9200/yun/share/_mapping -d'
+{
+  "share": {
+    "_all": {
+      "enabled": false
+    },
+    "properties": {
+      "title": {
+        "type": "text",
+        "analyzer": "ik_smart",
+        "boost": 2
+      },
+      "category": {
+        "type": "integer",
+        "index": "not_analyzed"
+      },
+      "feed_time": {
+        "type": "date",
+        "format": "epoch_millis"
+      },
+      "feed_type": {
+        "type": "text",
+        "index": "not_analyzed"
+      },
+      "filelist": {
+        "type": "text",
+        "index": "not_analyzed"
+      },
+      "tags": {
+        "type": "text",
+        "index": "not_analyzed"
+      }
+    }
+  }
+}'

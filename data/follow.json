@@ -1,0 +1,35 @@
+{
+  "errno": 0,
+  "request_id": 2296538328,
+  "total_count": 2,
+  "follow_list": [
+    {
+      "type": -1,
+      "follow_uname": "\u8bed*\u7814\u4e60",
+      "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/cf95f644.jpg",
+      "intro": "\u65e5\u8bed\u3001\u5fb7\u8bed\u3001\u6cd5\u8bed\u3001\u897f\u8bed\u3001\u610f\u5927\u5229\u8bed\u3001\u963f\u62c9\u4f2f\u8bed\u3001\u4e16\u754c\u8bed\u7b49\u7b49\u591a\u591a\u8bed\u8a00\u8d44\u6599\u5206\u4eab\uff01~~\u656c\u8bf7\u5173\u6ce8\uff0c\u4e00\u8d77\u7814\u4e60\u8bed\u8a00\uff01~~",
+      "user_type": 4,
+      "is_vip": 0,
+      "follow_count": 5,
+      "fans_count": 13211,
+      "follow_time": 1399126249,
+      "pubshare_count": 147,
+      "follow_uk": 2504032553,
+      "album_count": 1
+    },
+    {
+      "type": -1,
+      "follow_uname": "\u5149\u4e0e**\u6e90\u5e93",
+      "avatar_url": "http:\/\/himg.bdimg.com\/sys\/portrait\/item\/9f5cbb40.jpg",
+      "intro": "\u7d20\u63cf\uff0c\u6c34\u5f69\uff0c\u6cb9\u753b\u8d44\u6e90\u5206\u4eab\uff01",
+      "user_type": 4,
+      "is_vip": 0,
+      "follow_count": 119,
+      "fans_count": 13589,
+      "follow_time": 1394695995,
+      "pubshare_count": 49,
+      "follow_uk": 1548013924,
+      "album_count": 0
+    }
+  ]
+}

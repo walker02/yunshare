@@ -1,0 +1,291 @@
+  
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="max-age=30"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="baidu-tc-verification" content="b31ebb7c3759312418b3645de4991aef"/>
+<meta name="keywords" content="
+网盘,百度网盘,网络U盘,网络硬盘,免费网盘,网盘下载,网盘资源,同步,云存储,外链分享,离线下载"/>
+<meta name="description" content="
+百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。现在注册即有机会享受15G的免费存储空间"/>
+<title>
+百度网盘-名姿10的分享</title>
+<script>
+        window.alogObjectConfig = {
+        sample: '1',
+        product: '221',
+        page: '221_110',
+        monkey_page: '',
+        speed_page: '',
+
+        speed: {
+                        sample: '1'
+        },
+
+        monkey: {
+            sample: ''
+        },
+
+        exception: {
+            sample: ''
+        },
+
+        feature: {
+            sample: ''
+        },
+
+        cus: {
+            sample: ''
+        },
+
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+
+    void function(a,b,c,d,e,f,g){if(a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,"https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!a.alogObjectConfig||!a.alogObjectConfig.sample)return}else d="http://img.baidu.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d,g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.mobile.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<link rel="shortcut icon" href="/h5-static/h5-base/images/favicon.ico" type="images/x-icon"/>
+<script src="//m.baidu.com/static/searchbox/openjs/aio.js?v=201502"></script>
+<script type="text/javascript" id="platform">
+        (function() {
+            var platformJs = document.getElementById('platform');
+            var url = window.location.href;
+            var reg1 = /wap\/link\?surl=([^\&]+)(&(.*))*/i;
+            var reg2 = /wap\/link/i;
+            var reg3 = /wap\/home/i;
+            var reg4 = /wap\/view/i;
+            var reg5 = /wap\/shareview/i;
+            var adaptReg = /(.*)(\?|\&)adapt=([^\&\#]*)(.*)/;
+            var jumptourl = '';
+
+            var addParameterToUrl = function(url) {
+                var indexOf = url.indexOf('#');
+                if (url.indexOf('?') > -1) {
+                    addParams = '&adapt=pc&fr=ftw';
+                } else {
+                    addParams = '?adapt=pc&fr=ftw';
+                }
+
+                if (indexOf > -1) {
+                    url = url.slice(0, indexOf) + addParams + url.slice(indexOf);
+                } else {
+                    url += addParams;
+                }
+                return url;
+            };
+
+            if (navigator.platform.match(/win32|mac/i)) {
+                var hasAdapt;
+                var isMatched = true;
+                // 有adapt参数，但不等于pc，修正为pc
+                if (url.match(adaptReg) && !(/adapt\=pc/i.test(url))) {
+                    url = url.replace(adaptReg, '$1$2adapt=pc$4');
+                }
+                // 没有则添加adapt=pc , 对于adapt=pc的不跳转
+                else if (!(/adapt/i.test(url))) {
+                    url = addParameterToUrl(url);
+                }
+                // 有adapt=pc
+                else if ((/adapt\=pc/i.test(url))) {
+                    hasAdapt = true;
+                }
+
+                // 判断是否匹配路由跳转规则
+                if (url.match(reg1)) {
+                    jumptourl = url.replace(reg1, 's/$1?$3');
+                } else if (url.match(reg2)) {
+                    jumptourl = url.replace(reg2, 'share/link');
+                } else if (url.match(reg3)) {
+                    jumptourl = url.replace(reg3, 'disk/home');
+                } else if (url.match(reg4)) {
+                    jumptourl = location.protocol + '//' + location.host + '/disk/home?adapt=pc&fr=ftw';
+                } else if (url.match(reg5)) {
+                    var shareid = url.match(/(?=.*?shareid=([^\&\#]*)(\&|$))/i)[1];
+                    var uk = url.match(/(?=.*?uk=([^\&\#]*)(\&|$))/i)[1];
+                    jumptourl = location.protocol + '//' + location.host + '/share/link?shareid=' + shareid + '&uk=' + uk + '&adapt=pc&fr=ftw';
+                } else {
+                    jumptourl = url;
+                    isMatched = false;
+                }
+
+                // 有adapt＝pc的并且没有匹配到路由跳转规则的不用跳转
+                if (hasAdapt && !isMatched) {
+                    jumptourl = '';
+                }
+                setTimeout(function() {
+                    if (jumptourl) {
+                        window.location.href = jumptourl;
+                    }
+                }, 100);
+            }
+            platformJs.parentNode.removeChild(platformJs);
+        })();
+        </script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="http://s1.pan.bdstatic.com/h5-static/??h5-base-cdn/pkg/all_ae8fa69.css,h5-share-cdn/pkg/all_176c60d.css,h5-common-cdn/pkg/widget_6faa9c9.css"/>
+<link rel="stylesheet" type="text/css" href="http://s1.pan.bdstatic.com/h5-static/??h5-base-cdn/pkg/widget_b3d4160.css,h5-share-cdn/pkg/widget_cad1e90.css"/>
+</head>
+<script> alog('speed.set', 'ht', +new Date); </script>
+<body>
+
+<div class="panel-container" id="page">
+<div class="main pr panel-main" id="pageMain">
+<header class="header" id="header">
+<div class="share-header">
+<h1 class="logo" id="logo">
+<a href="/wap/home">
+<img src="http://s1.pan.bdstatic.com/h5-static/h5-common-cdn/widget/header/img/logo_55d1719.png" alt="百度网盘"/>
+</a>
+</h1>
+<div class="login-info">
+<a href="javascript:void(0)" class="login-url" id="userLogin">登录</a>
+<span class="seperator">|</span>
+<a href="javascript:void(0)" class="reg-url" id="userReg">注册</a>
+</div>
+</div>
+</header>
+
+<header class="sharebox-hd">
+<div class="sharebox-hd-inner">
+<div class="sharebox-hd-l">
+<a class="avator" href="/wap/share/home?uk=1949404764&third=0"><img onerror="this.remove();" src="http://himg.bdimg.com/sys/portrait/item/c0748335.jpg" alt="名姿10"/></a>
+</div>
+<div class="sharebox-hd-m">
+<h2 class="share-uname vm">名姿10</h2>
+</div>
+<div class="sharebox-hd-r">
+<div id="followbtn-container">
+<template id="follow-btn">
+<span class="follow-btn btn {{getItemType(relation).btnClass}}"
+                        @click="changeItemType($event, relation, followuk)"><i class="{{getItemType(relation).class}}"></i>{{{getItemType(relation).typeInfo}}}</span>
+</template>
+</div>
+</div>
+</div>
+</header>
+<div class="sharebox-nums">
+<a href="javascript:void(0)"><em>76</em>
+<p>分享</p>
+</a>
+
+</div>
+<div class="list-title">分享文件</div>
+<div class="divide-line"></div>
+<div class="list-loading">正在加载 ，请稍候...</div>
+<div id="share-home">
+<template  v-if="totalCount>0">
+<ul class="list"  node-type="file-list" data-path="/">
+<li v-for="info in list">
+<a class="list-item" href="{{fileUrl(info)}}">
+<i class="file-icon {{fileIcon(info)}}"
+                        v-bind:style="hidePicBg(info)">
+<img v-if="fileThumbs(info)" v-bind:src="fileThumbs(info)">
+</i>
+<div class="content">
+<h3>{{{parseFileName(info.title)}}}</h3>
+<div class="list-content">
+{{parseDate(info.feed_time, true)}}</div>
+</div>
+</a>
+</li>
+</ul>
+</template>
+<template  v-else>
+<template  v-if="shareName==userName">
+<div class="empty-mine">
+<span class="empty1"></span>
+<p>好东西都要晒出来,<br/>快把你的文件分享给朋友们吧~</p>
+<template  v-if="mobileModel == 'iPhone'">
+<a href="http://itunes.apple.com/cn/app/bai-du-wang-pan/id547166701?mt=8" class="btn blue-btn" title="立即下载iPhone客户端">下载百度网盘</a>
+</template>
+<template  v-else>
+<a href="http://issuecdn.baidupcs.com/issue/netdisk/apk/BaiduYunSetup_a.apk" class="btn blue-btn" title="立即下载Android客户端">下载百度网盘</a>
+</template>
+</div>
+</template>
+<template  v-else>
+<div class="empty-other">
+<span class="empty2"></span>
+<p>Ta还木有分享呢，过段时间再来看看吧~</p>
+</div>
+</template>
+</template>
+</div>
+<div class="pages" id="pagination" node-type="pagination"></div>
+
+</div>
+<div id="ad-platform-tips"></div>
+<div class="foot-container">
+<footer class="footer public-footer" id="footer">
+<div class="copyright">
+
+<span>
+使用百度网盘客户端送2T空间</span>
+<a href='//pan.baidu.com/disk/home?adapt=pc'>电脑版</a>
+</div>
+</footer>
+
+
+<div class="dynamicshare-adbox" id="dynamicshareAdbox">
+查看好友分享动态、热门资源猛戳<i class="iadarrow"></i>
+<span class="callclient-btn">从客户端打开</span>
+</div>
+</div>
+</div>
+<div class="dn">
+<script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe6c5e9705447b840241ebab6dbdb5fda' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+<script>
+    void function(e,t){for(var n=t.getElementsByTagName("img"),a=+new Date,i=[],o=function(){this.removeEventListener&&this.removeEventListener("load",o,!1),i.push({img:this,time:+new Date})},s=0;s< n.length;s++)!function(){var e=n[s];e.addEventListener?!e.complete&&e.addEventListener("load",o,!1):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"==e.readyState&&o.call(e,o)})}();alog("speed.set",{fsItems:i,fs:a})}(window,document);
+</script>
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;if("https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!k||!l)return}else d="http://img.baidu.com"+d;k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.mobile.min.js");
+    if (typeof alog === 'function') {
+        alog('speed.set', 'drt', +new Date);
+    }
+</script>
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=ett" />
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcs.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcs" />
+<img style="position:absolute;top:-10px;left:-10px;width:1px;height:1px;display:none;" src="//pcsdata.baidu.com/rest/2.0/pcs/file?method=plantcookie&type=stoken&source=pcsdata" />
+</body><script type="text/javascript" src="http://s1.pan.bdstatic.com/h5-static/h5-base-cdn/pkg/all_53c5a70.js"></script>
+<script type="text/javascript" src="http://s1.pan.bdstatic.com/h5-static/??h5-common-cdn/pkg/all_0814d8e.js,h5-share-cdn/pkg/all_5652248.js,h5-common-cdn/pkg/widget_0d9557f.js"></script>
+<script type="text/javascript" src="http://s1.pan.bdstatic.com/h5-static/??h5-base-cdn/pkg/widget_b3be028.js,h5-share-cdn/pkg/widget_ae24835.js"></script>
+<script type="text/javascript">!function(){        window.yunData = {"loginstate":0,"mobileModel":"","uinfo":{"uname":"\u540d\u59ff10","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","uk":1949404764,"third":0,"fans_count":240381,"follow_count":0,"pubshare_count":69,"album_count":7,"relation_type":-1},"flag":10,"limit":20,"quota":[],"third":0,"photo":"","username":null,"visit_uk":null,"is_vip":0,"fans_count":null,"follow_count":null,"bdstoken":null,"is_master_vip":0,"feedata":{"total_count":76,"records":[{"feed_type":"share","category":6,"public":"1","shareid":"3731559445","data_id":"6290462535080901371","title":"\u7231\u82b1\u6735\u80cc\u5355\u8bcd2.0\u7248\u672c.zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1395214492000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u7231\u82b1\u6735\u80cc\u5355\u8bcd2.0\u7248\u672c.zip","category":6,"isdir":0,"size":5070195,"fs_id":1095067219,"path":"%2F%E7%88%B1%E8%8A%B1%E6%9C%B5%E8%83%8C%E5%8D%95%E8%AF%8D2.0%E7%89%88%E6%9C%AC.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"1864748372","data_id":"8548678700934249249","title":"\u7231\u82b1\u6735\u80cc\u5355\u8bcd3.0\u7248.zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1394508629000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u7231\u82b1\u6735\u80cc\u5355\u8bcd3.0\u7248.zip","category":6,"isdir":0,"size":29627720,"fs_id":70085253389816,"path":"%2F%E7%88%B1%E8%8A%B1%E6%9C%B5%E8%83%8C%E5%8D%95%E8%AF%8D3.0%E7%89%88.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2818418893","data_id":"6475081420553662067","title":"2014\u8003\u7814\u5546\u5fd7\u4f20\u5947\u9605\u8bfb\u73ed","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1393401474000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","dir_cnt":1,"filelist":[{"server_filename":"2014\u8003\u7814\u5546\u5fd7\u4f20\u5947\u9605\u8bfb\u73ed","category":6,"isdir":1,"size":1024,"fs_id":235467567788598,"path":"%2F2014%E8%80%83%E7%A0%94%E5%95%86%E5%BF%97%E4%BC%A0%E5%A5%87%E9%98%85%E8%AF%BB%E7%8F%AD"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2358139189","data_id":"5904918846649706511","title":"\u666e\u7279\u6709\u9053\u5355\u8bcd\u5361\u7247\u6253\u5305\u4e0b\u8f7d.zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1392108382000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u666e\u7279\u6709\u9053\u5355\u8bcd\u5361\u7247\u6253\u5305\u4e0b\u8f7d.zip","category":6,"isdir":0,"size":28960727,"fs_id":3846848982,"path":"%2F%E6%99%AE%E7%89%B9%E6%9C%89%E9%81%93%E5%8D%95%E8%AF%8D%E5%8D%A1%E7%89%87%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3867072473","data_id":"4313453603702919890","title":"\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1390877930000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip","category":6,"isdir":0,"size":1290465935,"fs_id":2294510479,"path":"\/\u8d56\u4e16\u96c4\u7f8e\u56fd\u82f1\u8bed\u5168\u96c6MP3+\u6587\u672c.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"991960658","data_id":"4244457398101329698","title":"100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1390548531000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip","category":6,"isdir":0,"size":15855796,"fs_id":2491108638,"path":"\/100\u4e2a\u53e5\u5b50\u641e\u5b9a\u82f1\u8bed\u8bed\u6cd5.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3517447030","data_id":"5587207233751822539","title":"\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1390273138000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip","category":6,"isdir":0,"size":113484603,"fs_id":1426786665,"path":"\/\u65b0\u4e1c\u65b9\uff1a\u624b\u628a\u624b\u6559\u4f60\u5199\u56db\u516d\u7ea7\u4f5c\u6587.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"662476349","data_id":"342289729127490635","title":"\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1389170847000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip","category":6,"isdir":0,"size":84375511,"fs_id":3088107436,"path":"\/\u65b0\u6982\u5ff5\u82f1\u8bed\u5168\u56db\u518c\u8bcd\u6c47\u8be6\u89e3.(\u65b0\u7248)\u81ea\u5b66\u8f85\u5bfc\u4e1b\u4e66)].\u5b8b\u5fb7\u4f1f.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2103240213","data_id":"6910069592650479575","title":"\u4e92\u52a8\u7248\u65b0\u6982\u5ff5\u82f1\u8bed\u7f51\u7edc\u8bfe\u7a0b\u5168\u518c","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1387853814000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","dir_cnt":1,"filelist":[{"server_filename":"\u4e92\u52a8\u7248\u65b0\u6982\u5ff5\u82f1\u8bed\u7f51\u7edc\u8bfe\u7a0b\u5168\u518c","category":6,"isdir":1,"size":1024,"fs_id":1466346561,"path":"%2F%E4%BA%92%E5%8A%A8%E7%89%88%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B%E5%85%A8%E5%86%8C"}]},{"feed_type":"album","category":-1,"public":"1","album_id":"1481611372140163606","data_id":"1119629098101588178","title":"\u65b0\u4e1c\u65b9\u5218\u4e00\u7537\u89c6\u9891\u8bb2\u89e3\u4e13\u8f91","feed_time":1387767455000,"avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","uk":1949404764,"desc":"","cover_thumb":""},{"feed_type":"share","category":6,"public":"1","shareid":"3635858990","data_id":"8410490098872776903","title":"\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1387353745000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip","category":6,"isdir":0,"size":428815419,"fs_id":340652959,"path":"\/\u88d5\u5174\u300a\u65b0\u6982\u5ff51~3\u518c\u300bflash\u5168.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3225470842","data_id":"5648634982694001119","title":"BBC\u3001 VOA\u3001 CNN\u65b0\u95fb\u542c\u529b 300\u7bc7\u4e0b\u8f7d\uff08lrc\u540c\u6b65\u5b57\u5e55+MP3\uff09.zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1387177842000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"BBC\u3001 VOA\u3001 CNN\u65b0\u95fb\u542c\u529b 300\u7bc7\u4e0b\u8f7d\uff08lrc\u540c\u6b65\u5b57\u5e55+MP3\uff09.zip","category":6,"isdir":0,"size":114022828,"fs_id":681884026,"path":"%2FBBC%E3%80%81%20VOA%E3%80%81%20CNN%E6%96%B0%E9%97%BB%E5%90%AC%E5%8A%9B%20300%E7%AF%87%E4%B8%8B%E8%BD%BD%EF%BC%88lrc%E5%90%8C%E6%AD%A5%E5%AD%97%E5%B9%95%2BMP3%EF%BC%89.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3743824788","data_id":"8753283597970437118","title":"\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386667630000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip","category":6,"isdir":0,"size":157819266,"fs_id":1818914303,"path":"\/\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd \u516d\u7ea7\u8bcd\u6c47mp3.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3743160049","data_id":"7256971706516324808","title":"\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386667623000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip","category":6,"isdir":0,"size":102587607,"fs_id":4219751649,"path":"\/\u95ed\u7740\u773c\u775b\u98d8\u5355\u8bcd-\u56db\u7ea7lrc\u5b57\u5e55+MP3.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2824683414","data_id":"5165541565149707934","title":"\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386658438000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip","category":6,"isdir":0,"size":6567207,"fs_id":2830246193,"path":"\/\u56db\u516d\u7ea7\u91cd\u70b9\u8bed\u6cd5\u8bb2\u89e3PPT.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"3033389115","data_id":"896259465056378236","title":"\u65b0\u4e1c\u65b98\u59298000\u8bcd\u6c47\u9b54\u9b3c\u8bad\u7ec3\u8425\u5185\u90e8\u6559\u6750 .zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386574626000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u65b0\u4e1c\u65b98\u59298000\u8bcd\u6c47\u9b54\u9b3c\u8bad\u7ec3\u8425\u5185\u90e8\u6559\u6750 .zip","category":6,"isdir":0,"size":6423761,"fs_id":357749561,"path":"%2F%E6%96%B0%E4%B8%9C%E6%96%B98%E5%A4%A98000%E8%AF%8D%E6%B1%87%E9%AD%94%E9%AC%BC%E8%AE%AD%E7%BB%83%E8%90%A5%E5%86%85%E9%83%A8%E6%95%99%E6%9D%90%20.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2837525358","data_id":"1718404826000561994","title":"\u56db\u516d\u7ea7\u4f5c\u6587\u5fc5\u5907.zip","third":0,"clienttype":0,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386572667000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u56db\u516d\u7ea7\u4f5c\u6587\u5fc5\u5907.zip","category":6,"isdir":0,"size":6590231,"fs_id":4121804248,"path":"%2F%E5%9B%9B%E5%85%AD%E7%BA%A7%E4%BD%9C%E6%96%87%E5%BF%85%E5%A4%87.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"1408052197","data_id":"8090093345661622208","title":"\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1386214775000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip","category":6,"isdir":0,"size":45953449,"fs_id":1772163663,"path":"\/\u65b0\u4e1c\u65b9\u300a\u751f\u800c\u4e3a\u8d62\u300bmp3.zip"}]},{"feed_type":"share","category":6,"public":"1","shareid":"2513268362","data_id":"454676008475608283","title":"\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip","third":0,"clienttype":8,"filecount":1,"uk":1949404764,"username":"\u540d\u59ff10","feed_time":1385968129000,"desc":"","avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","category_6_cnt":1,"filelist":[{"server_filename":"\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip","category":6,"isdir":0,"size":192665436,"fs_id":1176878639,"path":"\/\u82f1\u8bed\u516d\u7ea7\u5355\u8bcd\u62fc\u8bfbMP3.zip"}]},{"feed_type":"album","category":6,"public":"1","album_id":"249027419093403849","data_id":"344812063008727000","title":"\u79bb\u7ebf\u8bed\u97f3\u5305\u4e0b\u8f7d","feed_time":1400039559000,"avatar_url":"http:\/\/himg.bdimg.com\/sys\/portrait\/item\/c0748335.jpg","uk":1949404764,"desc":"","cover_thumb":""}]},"bduss":null,"urlparam":[],"XDUSS":"null"};
+    }();
+!function(){        require("h5-base:widget/log/log.js");
+    }();
+!function(){    require('h5-share:widget/shareinfo/sharehd.js');
+}();
+!function(){    require('h5-share:widget/sharehome/sharehome.js');
+}();
+!function(){        require('h5-common:widget/ad/ad.js');
+    }();
+!function(){    require('h5-common:widget/footer/footer.js');
+}();
+!function(){    require('h5-common:widget/sharead/sharead.js');
+}();
+!function(){        require("h5-base:widget/libs/onload.js");
+        require("h5-base:widget/libs/detect.js");
+    }();</script><script>alog && alog('speed.set', 'c_syncTime', +new Date); alog.fire && alog.fire("mark");</script>
+</html>
